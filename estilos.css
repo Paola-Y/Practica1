@@ -1,0 +1,206 @@
+
+
+
+body{
+    background-image: url('fondo.jpg');
+
+   
+    
+
+    h1{
+        font-size:250%;
+    }
+
+    li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    
+    }
+
+    
+    #bloque1{
+        background-color: rgb(230, 128, 234);
+        margin: 15px 30px 30px;scroll-snap-align: ;
+        padding: 20px 20px 20px;
+        
+    }
+
+    .imagenes{
+
+        text-align: center;
+        img {
+        margin-right: 10px; 
+    }
+    
+
+    #bloque2{
+        background-color: rgb(230, 128, 234);
+        margin: 20px 3px 30px;scroll-snap-align: ;
+        padding: 20px 20px 20px;
+        
+    }
+
+    
+    }
+.columnas{
+    display: flex;
+    gap: 30px; 
+    padding: 20px;
+
+
+}
+    main {
+
+    flex: 3; 
+}
+
+
+aside {
+    flex: 1;
+    background-color: #f0f0f0; 
+    padding: 15px;
+    text-align:center;
+    flex-direction: column;
+    h2{
+        font-size: 450%;
+    }
+
+    a{
+        font-size: 200%;
+    }
+    
+
+}
+
+
+.caja2{
+    display: flex;        
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(230, 128, 234);
+    
+    article{
+        flex: 1;                
+        
+        min-height: 30px;
+    }
+
+    .arti1{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 15px;
+
+        img{
+            width: 35%;
+            height: auto;
+        }
+
+        h4{
+            width: 70%;             
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.5;
+
+            font-family: "Edu QLD Hand", cursive;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-size: small;
+            text-align: center;
+
+    }
+
+    }
+
+    .arti2{
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        
+
+        h4{
+            margin: 0 0 10px 0;
+
+            font-family: "Edu QLD Hand", cursive;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-size: small;
+            text-align: center;
+
+        }
+
+        #tres{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: auto;
+
+        }
+
+        img{
+            width: 30%;
+            height: 30%;
+            object-fit: cover;
+        }
+    
+    }
+
+    .arti3{
+
+        display: flex;
+        justify-content: center;
+        
+        padding: 0;
+
+        img{
+            width: 90%;
+            height: 60%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+
+
+    
+
+
+
+
+}
+
+
+
+
+}
+
+footer{
+    display: flex;         
+    gap: 25%;
+    justify-content:center ;
+    background-color: rgb(237, 122, 241);
+    margin: 5px 20px 20px;scroll-snap-align: ;
+    padding: 30px 30px 30px;
+
+
+    
+    article{
+    color: 10%;;
+    font-size: large;
+
+    }
+.logos{
+        text-align:left;
+        border-left: 15px beige solid;
+        
+        padding-inline: 10%;
+        gap 20%;
+    }
+    
+
+
+
+
+}
